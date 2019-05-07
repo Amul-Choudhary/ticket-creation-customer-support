@@ -49,7 +49,7 @@ def extract_and_store_info(email, ticket):
 
 while(1):
     time.sleep(3)
-    imapper = easyimap.connect('imap.gmail.com','USERNAME@gmail.com', 'PASSWORD')
+    imapper = easyimap.connect('imap.gmail.com','solvers.bot@gmail.com', '1234567890bot')
     mail_list = imapper.unseen(2)
     if (not mail_list):
         continue
