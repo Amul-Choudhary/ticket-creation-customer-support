@@ -18,7 +18,7 @@ def send_mail(mail, ticket):
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login("USERNAME@gmail.com", "PASSWORD")
+    server.login("solvers.bot@gmail.com", "1234567890bot")
     server.sendmail(sender, receivers, msg.as_string())
     server.quit()
     
